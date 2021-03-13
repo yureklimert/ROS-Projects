@@ -5,7 +5,7 @@
     output="screen"/>
 
   <!-- Start the BoxHeightInformation publisher node (Assignment 1)-->
-  <node name="compute_box_height>" pkg="hrwros_week1" type="week1_assignment1.py"
+  <node name="compute_box_height" pkg="hrwros_week1" type="week1_assignment1.py"
     output="screen"/>
 
   <!-- Start the metres_to_feet service server ROS node.-->
