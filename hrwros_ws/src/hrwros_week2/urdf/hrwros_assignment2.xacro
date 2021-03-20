@@ -91,25 +91,22 @@
 
 
   <!-- Add your solution to assignment 2 here -->
-<link name="sphere_link">
+  <link name="sphere_link">
     <visual>
-      <origin xyz="0 0 0" />
+      <origin xyz="0 0 0.4" />
       <geometry>
-        <sphere radius ="0.4"/>
+        <sphere radius="0.4" />
       </geometry>
-      <material name="green">
+      <material name="sphere_color">
         <color rgba="0 1 0 1"/>
-      </material>  
-    </visual>
+      </material>
+    </visual>   
   </link>
+
 
   <joint name="sphere_joint" type="fixed">
     <parent link="world_interface" />
-    <child link="sphere_link" />
-    <origin xyz="6 -5 0" />
-  </joint
-
-
-
-
+    <child link="sphere_link"/>
+    <origin xyz="5 -6 0" />
+  </joint>
 </robot>

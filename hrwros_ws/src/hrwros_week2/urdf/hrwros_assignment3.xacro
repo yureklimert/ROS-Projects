@@ -83,7 +83,7 @@
 
 
   <xacro:include filename="$(find hrwros_week2)/urdf/robot/lrmate200ic_macro.xacro"/>
-  <xacro:ur5_robot prefix="robot2_" joint_limited="true"/>
+  <xacro:fanuc_lrmate200ic prefix="robot2_" joint_limited="true"/>
   <joint name="robot2-robot2_pedestal_joint" type="fixed">
     <parent link="robot2_pedestal_link" />
     <child link="robot2_base_link" />

@@ -42,7 +42,7 @@ from hrwros_utilities.sim_sensor_data import distSensorData as getSensorData
 def sensorInfoPublisher():
     si_publisher = rospy.Publisher('sensor_info', SensorInformation, queue_size = 10)
     rospy.init_node('sensor_info_publisher', anonymous=False)
-    rate = rospy.Rate(1000000000000000)
+    rate = rospy.Rate(10)
 
     # Create a new SensorInformation object and fill in its contents.
     sensor_info = SensorInformation()

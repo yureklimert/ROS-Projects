@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="Pick part from conveyor">
+
+	<executable package_path="flexbe_behaviors.pick_part_from_conveyor_sm" class="PickpartfromconveyorSM" />
+	<tagstring>factory automation, robot arm, pick</tagstring>
+	<author>Mert </author>
+	<date>Fri Mar 19 2021</date>
+	<description>
+		This is a behavior for the hrwros_factory simulation that pick a part from the conveyor belt using Robot 1
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>

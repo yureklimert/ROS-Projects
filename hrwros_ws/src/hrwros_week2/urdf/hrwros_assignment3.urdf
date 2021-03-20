@@ -382,10 +382,32 @@
       <mass value="1.0"/>
     </inertial>
   </link>
-  <link name="vacuum_gripper1_suction_cup"/>
+  <link name="vacuum_gripper1_suction_cup">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <box size="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <box size="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="red"/>
+    </collision>
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+      <mass value="0.00001"/>
+    </inertial>
+  </link>
   <!-- joint list -->
   <joint name="vacuum_gripper1_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0 0 0.080"/>
+    <origin rpy="0 0 0" xyz="0 0 0.01"/>
     <parent link="vacuum_gripper1_base_link"/>
     <child link="vacuum_gripper1_suction_cup"/>
   </joint>
@@ -660,9 +682,10 @@
     <parent link="robot2_link_6"/>
     <child link="robot2_tool0"/>
   </joint>
-  <joint name="robot2-robot2_fanuc_lrmate200ic" type="fixed">
+  <joint name="robot2-robot2_pedestal_joint" type="fixed">
     <parent link="robot2_pedestal_link"/>
     <child link="robot2_base_link"/>
     <origin rpy="0 0 1.57079632679" xyz="0 0 0.6"/>
   </joint>
 </robot>
+

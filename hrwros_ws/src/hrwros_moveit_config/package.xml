@@ -5,8 +5,8 @@
   <description>
      An automatically generated package with all the configuration and launch files for using the hrwros with the MoveIt! Motion Planning Framework
   </description>
-  <author email="yurekli.mertt@gmail.com">Mert</author>
-  <maintainer email="yurekli.mertt@gmail.com">Mert</maintainer>
+  <author email="yurekli.mertt@gmail.com">Mert </author>
+  <maintainer email="yurekli.mertt@gmail.com">Mert </maintainer>
 
   <license>BSD</license>
 

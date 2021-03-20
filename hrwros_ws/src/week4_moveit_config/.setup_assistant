@@ -8,4 +8,4 @@ moveit_setup_assistant_config:
   CONFIG:
     author_name: hrwros_instructors
     author_email: hrwros@hrwros.com
-    generated_timestamp: 1615648268
+    generated_timestamp: 1580728881

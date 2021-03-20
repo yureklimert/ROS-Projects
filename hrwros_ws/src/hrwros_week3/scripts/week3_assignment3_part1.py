@@ -28,8 +28,8 @@ if __name__ == '__main__':
     turtlebot_robot1_goal.target_pose.header.stamp = rospy.Time.now()
     turtlebot_robot1_goal.target_pose.header.frame_id = "map"
     turtlebot_robot1_goal.target_pose.header.seq = 1
-    turtlebot_robot1_goal.target_pose.pose.position.x = -8.0
-    turtlebot_robot1_goal.target_pose.pose.position.y = -1.0
+    turtlebot_robot1_goal.target_pose.pose.position.x = 0.13
+    turtlebot_robot1_goal.target_pose.pose.position.y = 1.44
     turtlebot_robot1_goal.target_pose.pose.position.z = 0.0
     turtlebot_robot1_goal.target_pose.pose.orientation.x = 0.0
     turtlebot_robot1_goal.target_pose.pose.orientation.y = 0.0
